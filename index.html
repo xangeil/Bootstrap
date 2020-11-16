@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/carousel/">
+    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="carousel.css" rel="stylesheet">
+    <title>Empresa de Diseño</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+            <img src="img/logo.jpg" alt="logo">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#frame">Frameworks</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#diseños" tabindex="-1" aria-disabled="true">Diseños</a>
+                    </li>
+                </ul>
+                <form class="form-inline mt-2 mt-md-0">
+                    <input class="form-control mr-sm-2" type="text" placeholder="Buscar" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+                </form>
+            </div>
+        </nav>
+    </header>
+
+    <main role="main">
+
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="bd-placeholder-img" src="img/port-1.jpg" alt="imagen de informatica">
+                    <div class="container">
+                        <div class="carousel-caption text-left">
+                            <h1>Colores vivos</h1>
+                            <p>Los diseños de nuestro trabajo cuentan con los colores mas vivos y de aspecto agradable a la vista.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="bd-placeholder-img" src="img/port-2.jpg" alt="imagen de informatica">
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1>Diseño estructurado</h1>
+                            <p>El contenido de nuestras paginas cuentan con una navegacion facil y eficiente para su mejor aprovechamiento.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="bd-placeholder-img" src="img/port-3.jpg" alt="imagen de informatica">
+                    <div class="container">
+                        <div class="carousel-caption text-right">
+                            <h1>Entorno orientado a la naturaleza</h1>
+                            <p>Sabemos que las paginas actuales tienen mucho entorno geometrico y es por eso que agregamos el entorno de la naturaleza para causar un entorno de contacto con esta misma.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+            <span id="frame"></span>
+        </div>
+
+        <div class="container marketing">
+            <h1>Frameworks mas Utilizados</h1>
+            <div class="row">
+                <div class="col-lg-4">
+                    <img class="bd-placeholder-img rounded-circle" width="200" height="200" src="img/logo-1.png" alt="imagen de informatica">
+                    <h2>Bootstrap4</h2>
+                    <p>Bootstrap es un framework front-end utilizado para desarrollar aplicaciones web y sitios mobile first, o sea, con un layout que se adapta a la pantalla del dispositivo utilizado por el usuario.</p>
+                    <p><a class="btn btn-secondary" href="https://getbootstrap.com/" target="_blank" role="button">Ver mas.. &raquo;</a></p>
+                </div>
+                <div class="col-lg-4">
+                    <img class="bd-placeholder-img rounded-circle" width="200" height="200" src="img/logo-2.png" alt="imagen de informatica">
+                    <h2>Bulma.io</h2>
+                    <p>Bulma es un framework CSS sencillo, moderno y elegante que muchos desarrolladores prefieren por encima de Bootstrap. Personalmente, pienso que Bulma tiene un mejor diseño por defecto, y parece más ligero. En este tutorial, daremos
+                        una rápida introducción a esta librería.</p>
+                    <p><a class="btn btn-secondary" href="https://bulma.io/" target="_blank" role="button">Ver mas.. &raquo;</a></p>
+                </div>
+                <div class="col-lg-4">
+                    <img class="bd-placeholder-img rounded-circle" width="200" height="200" src="img/logo-3.png" alt="imagen de informatica">
+                    <h2>Pure.css</h2>
+                    <p>css es un pequeño archivo CSS que proporciona una mejor consistencia entre los navegadores en el estilo predeterminado de los elementos HTML. Es una alternativa moderna y lista para HTML5 al tradicional restablecimiento CSS.</p>
+                    <p><a class="btn btn-secondary" href="https://purecss.io/" target="_blank" role="button">Ver mas.. &raquo;</a></p>
+                </div>
+            </div>
+            <span id="diseños"></span>
+            <hr class="featurette-divider">
+
+            <div class="row featurette">
+                <div class="col-md-7">
+                    <h2 class="featurette-heading">Bootstrap4</h2>
+                    <p class="lead">Ya sea a través de teléfonos móviles, tabletas, computadoras portátiles o de escritorio, sin duda hoy día accedemos a Internet desde todo tipo de dispositivos. En consecuencia, nos surge la necesidad de crear diseño web con experiencia
+                        de usuario con Bootstrap para las empresas que nos contratan.</p>
+                </div>
+                <div class="col-md-5">
+                    <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src="img/ejem-1.jpg" alt="imagen de informatica">
+                </div>
+            </div>
+
+            <hr class="featurette-divider">
+
+            <div class="row featurette">
+                <div class="col-md-7 order-md-2">
+                    <p class="lead">Bootstrap es un framework bastante usado hoy en día para hacer más ágil el diseño de los sitios web, si se dan cuenta en los ejemplos no se identifica muy bien si se usa el framework de Twitter, y es porque la personalización se hizo
+                        bastante bien en cada uno de los sitios.</p>
+                </div>
+                <div class="col-md-5 order-md-1">
+                    <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src="img/ejem-2.jpg" alt="imagen de informatica">
+                </div>
+            </div>
+
+            <hr class="featurette-divider">
+
+            <div class="row featurette">
+                <div class="col-md-7">
+                    <h2 class="featurette-heading">Bulma.io</h2>
+                    <p class="lead">Bulma CSS fué desarrollado por Jeremy Thomas, un gran diseñador reconocido a nivel mundial, por lo que nos ofrece un píxel muy cuidado, que, al incorporar Flexbox en su núcleo, lo convierten en uno de los más poderosos frameworks del
+                        momento. Por si no fuera suficiente, no viene con Javascript. No tienes dependencia de ninguna librería, lo cual ha dado pie a la evolución de ciertas librerías muy conocidas y potentes para poder incorporarse con facilidad a este
+                        frawork, como es el caso de Vue.js en su versión Buefy.</p>
+                </div>
+                <div class="col-md-5">
+                    <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src="img/ejem-3.png" alt="imagen de informatica">
+                </div>
+            </div>
+
+            <hr class="featurette-divider">
+        </div>
+        <footer class="container">
+            <p class="float-right"><a href="#">Subir</a></p>
+            <p>&copy; Henry Design &middot;</p>
+        </footer>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script>
+        window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>')
+    </script>
+    <script src="dist/js/bootstrap.bundle.min.js"></script>
+
+</html>
